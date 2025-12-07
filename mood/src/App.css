@@ -142,6 +142,8 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transform: scaleX(-1) !important;
+  -webkit-transform: scaleX(-1) !important;
 }
 
 .camera-caption {
@@ -318,11 +320,9 @@
   width: 100%;
   height: 100%;
   border-radius: 999px;
-  background: radial-gradient(
-    circle,
-    rgba(251, 191, 36, 0.45) 0%,
-    #000 60%
-  );
+  background: radial-gradient(circle,
+      rgba(251, 191, 36, 0.45) 0%,
+      #000 60%);
   border: 4px solid #3b82f6;
   display: flex;
   align-items: center;
@@ -352,6 +352,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
