@@ -1,0 +1,17 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Python virtual environment & caches
+venv/
+__pycache__/
+*.pyc
+
+# ML model files (JANGAN upload ke GitHub)
+model/
+*.h5
+
+# Multer / Uploads folder (gambar hasil capture)
+uploads/
